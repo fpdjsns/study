@@ -34,7 +34,7 @@ JVM이 자바 바이트코드와 OS와 사이의 통역 역할을 하기 때문�
 
 ### Class Loader (클래스 로더)  
 JVM 내로 클래스를 로드.  
-Runtime Data Areas에 바이트 코드를 배치한다.
+Runtime Data Areas에 바이트코드를 배치한다.
 
 ### Runtime Data Area 
 
@@ -47,11 +47,11 @@ Runtime Data Areas에 바이트 코드를 배치한다.
 | Native Method Stack | java 외 다른 언어(C, C++ 등)로 작성된 코드를 위한 공간. <br> JNI(Java Native Interface)를 통해 호출하는 코드를 수행하기 위한 공간.  |
 
 ### Execution Engine (실행 엔진)
-Class Loader에 의해 Runtime Data Areas에 배치된 바이트 코드를 실행한다.    
+Class Loader에 의해 Runtime Data Areas에 배치된 바이트코드를 실행한다.    
 자바 바이트코드는 기계어가 아니기에 실행 엔진은 이를 기계어로 변경한다.  
 
 - **Interpreter**   
-자바 바이트 코드를 명령어 단위로 실행. 한 줄 씩 실행하기 때문에 느리다.  
+자바 바이트코드를 명령어 단위로 실행. 한 줄 씩 실행하기 때문에 느리다.  
 
 - **JIT 컴파일러**  
 JIT = Just In Time (런타임 시 컴파일)  
